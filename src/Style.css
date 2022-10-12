@@ -1,0 +1,47 @@
+.mainContainer {
+  background-color: black;
+  height: 100vh;
+  /* padding: 10px; */
+}
+.textField {
+  background-color: rgb(228, 83, 112);
+  color: white;
+  width: 50%;
+  background-color: rgb(228, 83, 112);
+  border-radius: 5px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 50%;
+  border: 5px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  background-color: rgb(228, 83, 112);
+  color: white;
+  margin-top: 20px;
+}
+
+.card_innerDiv1 {
+  /* border: 1px solid black; */
+  display: grid;
+  place-items: center;
+}
+
+.card_innerDiv2 {
+  width: 90%;
+  /* border: 1px solid black; */
+}
+
+.card img {
+  width: 6rem;
+  border-radius: 50%;
+}
+
+.Show_Profile_button button {
+  border-radius: 5px;
+  padding: 0.8rem;
+  border: none;
+}
